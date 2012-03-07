@@ -6,9 +6,12 @@
 #include <xs1.h>
 #include "zip.h"
 
+//::declaration
 buffered out port:32 o = XS1_PORT_4A;
 buffered in port:32 i = XS1_PORT_4B;
+//::
 
+//::declaration
 int main(void) {
     outputWordsZipped(o, 1, 2, 3, 4);
     outputWordsZipped(o, 1, 2, 3, 4);
@@ -16,3 +19,4 @@ int main(void) {
     inputWordsZipped(i);
     return 0;
 }
+//::
