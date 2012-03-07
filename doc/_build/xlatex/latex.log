@@ -1,0 +1,168 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011)
+ \write18 enabled.
+entering extended mode
+(_build/xlatex/index.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(../../xdoc/texinput/xcore.cls
+Document Class: xcore 2011/11/24 v1.0b Initial Release
+(/usr/local/texlive/2011/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2011/03/06 v3.6j configurable book, report, article docu
+ment class
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/etex-pkg/etex.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/memoir/mem10.clo)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/memoir/mempatch.sty))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty)
+
+******************************************************
+Stock height and width: 668.63976pt by 506.45905pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 668.63976pt by 506.45905pt
+Text height and width: 562pt by 384pt
+Spine and edge margins: 61.17249pt and 61.17436pt
+Upper and lower margins: 71.13188pt and 35.50787pt
+Headheight and headsep: 12pt and 24pt
+Footskip: 24pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 71pt
+Sidecapsep and sidecapwidth: 7pt and 71pt
+Sidebarhsep and sidebarwidth: 7pt and 71pt
+Sidebarvsep and sidebartopsep: 12pt and 0pt
+Sidebarheight: 548.39996pt
+Sidefoothsep and sidefootwidth: 7pt and 71pt
+Sidefootvsep and sidefootheight: 12pt and 548.39996pt
+******************************************************
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty))))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsmath.sty
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsgen.sty))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsbsy.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsmath/amsopn.sty))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/microtype/microtype.cfg))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/alltt.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/amsfonts.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/longtable.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1enc.def))
+(/Users/henk/Library/texmf/tex/latex/html/url.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/was/gensymb.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/xspace.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/multirow/multirow.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fixltx2e.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/enumitem/enumitem.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/placeins/placeins.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/flafter.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/marginnote/marginnote.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/marvosym/marvosym.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/memoir/memhfixc.sty)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty))
+
+Package hyperref Warning: Values of option `pdfpagelayout':
+(hyperref)                * `SinglePage'
+(hyperref)                * `OneColumn'
+(hyperref)                * `TwoColumnLeft'
+(hyperref)                * `TwoColumnRight'
+(hyperref)                * `TwoPageLeft' (PDF 1.5)
+(hyperref)                * `TwoPageRight' (PDF 1.5)
+(hyperref)                * An empty value disables the option.
+(hyperref)                Unknown value `standardpage' on input line 150.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/lastpage/lastpage.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.def))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/upquote/upquote.sty))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/utf8.def
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.dfu)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ot1enc.dfu)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/omsenc.dfu)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1enc.dfu)))
+(../../xdoc/texinput/xsphinx.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/framed/framed.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+)) (../../xdoc/texinput/indent.sty)
+Writing index file index.idx 
+(./index.aux) (/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmr.fd)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmss.fd)
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty))
+Redoing nameref's sectioning
+Redoing nameref's label
+(./index.out) (./index.out)
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+
+(./index.toc (/usr/local/texlive/2011/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsa.fd)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/microtype/mt-msa.cfg)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/amsfonts/umsb.fd)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/microtype/mt-msb.cfg)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ts1cmss.fd)) [1{/Users/henk/
+Library/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[][]\T1/cmtt/m/n/10 void outputWordsZipped(buffered out port:32 p, int b0, int 
+b1, int b2,
+AED: lastpage setting LastPage 
+[3] (./index.aux) )
+(see the transcript file for additional information){/usr/local/texlive/2011/te
+xmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/local/texlive/2011/texm
+f-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2011/texmf
+-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2011/texmf-dist/
+fonts/type1/public/cm-super/sfsx1095.pfb></usr/local/texlive/2011/texmf-dist/fo
+nts/type1/public/cm-super/sfsx1200.pfb></usr/local/texlive/2011/texmf-dist/font
+s/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2011/texmf-dist/fonts/
+type1/public/cm-super/sftt1000.pfb>
+Output written on index.pdf (3 pages, 123852 bytes).
+Transcript written on index.log.
+

@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="zip_8h" kind="file">
+    <compoundname>zip.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="zip_8h_1a90a00876c4eb8cb0b768094d99d12217" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void outputWordsZipped</definition>
+        <argsstring>(buffered out ___port___port___32 p, int b0, int b1, int b2, int b3)</argsstring>
+        <name>outputWordsZipped</name>
+        <param>
+          <type>buffered out ___port___port___32</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b0</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b3</declname>
+        </param>
+        <briefdescription>
+<para>Function that outputs 4 words to a single 4-bit buffered port. </para>        </briefdescription>
+        <detaileddescription>
+<para>Each word is output to one of the 4 bits serialised.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>port to output to</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b0</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>word to output to bit 0 of port p</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b1</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>word to output to bit 1 of port p</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b2</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>word to output to bit 2 of port p</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>b3</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>word to output to bit 3 of port p </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/henk/gitCommunity/sc_advanced_port_usage/doc/.doxygen/module_zip/src/zip.h" line="20"/>
+      </memberdef>
+      <memberdef kind="function" id="zip_8h_1ad0dbfd1a67287fba9e29836121703ebe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__multret__obraceintcommaintcommaintcommaintcbracespacei</type>
+        <definition>__multret__obraceintcommaintcommaintcommaintcbracespacei inputWordsZipped</definition>
+        <argsstring>(buffered in ___port___port___32 p)</argsstring>
+        <name>inputWordsZipped</name>
+        <param>
+          <type>buffered in ___port___port___32</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+<para>Function that inputs 4 words from a single 4-bit buffered port. </para>        </briefdescription>
+        <detaileddescription>
+<para>Each word is input from one of the 4 bits serialised.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>p</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>port to input from</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>the four words, the first word is bit 0, the 4th return value is bit 3 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/Users/henk/gitCommunity/sc_advanced_port_usage/doc/.doxygen/module_zip/src/zip.h" line="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>Copyright<sp/>(c)<sp/>2011,<sp/>XMOS<sp/>Ltd,<sp/>All<sp/>rights<sp/>reserved</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>software<sp/>is<sp/>freely<sp/>distributable<sp/>under<sp/>a<sp/>derivative<sp/>of<sp/>the</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>University<sp/>of<sp/>Illinois/NCSA<sp/>Open<sp/>Source<sp/>License<sp/>posted<sp/>in</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>LICENSE.txt<sp/>and<sp/>at<sp/>&lt;http://github.xcore.com/&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="zip_8h_1a90a00876c4eb8cb0b768094d99d12217" kindref="member" tooltip="Function that outputs 4 words to a single 4-bit buffered port.">outputWordsZipped</ref>(buffered<sp/>out<sp/>port:32<sp/>p,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b0,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b1,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b2,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>b3);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">{int,int,int,</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">}<sp/><ref refid="zip_8h_1ad0dbfd1a67287fba9e29836121703ebe" kindref="member" tooltip="Function that inputs 4 words from a single 4-bit buffered port.">inputWordsZipped</ref>(buffered<sp/>in<sp/>port:32<sp/>p);</highlight></codeline>
+    </programlisting>
+    <location file="/Users/henk/gitCommunity/sc_advanced_port_usage/doc/.doxygen/module_zip/src/zip.h"/>
+  </compounddef>
+</doxygen>

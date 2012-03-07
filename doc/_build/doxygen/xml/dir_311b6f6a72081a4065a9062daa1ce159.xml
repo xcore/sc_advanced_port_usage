@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.7.5.1">
+  <compounddef id="dir_311b6f6a72081a4065a9062daa1ce159" kind="dir">
+    <compoundname>.doxygen/</compoundname>
+    <innerdir refid="dir_327a77b3681db475d9d6c7eb637b5619">.doxygen/module_zip/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/Users/henk/gitCommunity/sc_advanced_port_usage/doc/.doxygen/"/>
+  </compounddef>
+</doxygen>

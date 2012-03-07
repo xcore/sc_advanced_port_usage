@@ -1,0 +1,18 @@
+Running Sphinx v1.1.2
+loading pickled environment... not yet created
+building [xlatex]: all documents
+updating environment: 3 added, 0 changed, 0 removed
+reading sources... [ 33%] api-zip
+Rendering Doxygen function void outputWordsZipped
+Rendering Doxygen function __multret__obraceintcommaintcommaintcommaintcbracespacei inputWordsZipped
+reading sources... [ 66%] index
+reading sources... [100%] summary
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+processing index.tex... index summary api-zip 
+resolving references...
+writing... done
+copying TeX support files... done
+build succeeded, 2 warnings.

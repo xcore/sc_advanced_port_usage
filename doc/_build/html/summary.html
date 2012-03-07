@@ -1,0 +1,139 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Advanced port usage &mdash; Advanced Port Usage 1v0 documentation</title>
+    <link rel="stylesheet" href="_static/xdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1v0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://mathjax.connectmv.com/MathJax.js"></script>
+    <script type="text/javascript" src="_static/xcomment.js"></script>
+    <link rel="top" title="Advanced Port Usage 1v0 documentation" href="index.html" />
+    <link rel="next" title="Zipping and Unzipping data onto ports" href="api-zip.html" />
+    <link rel="prev" title="Documentation" href="index.html" /> 
+
+<script>
+function setheight() {
+h1 = document.getElementById('d1').style.height;
+h2 = document.getElementById('d2').style.height;
+
+if (parseInt(h1) > parseInt(h2)) {
+document.getElementById('d2').style.height=h1 + "px";
+}
+else {
+document.getElementById('d1').style.height=h2 + "px";
+}
+
+}
+</script>
+</head>
+
+<body onload="setheight();">
+
+  
+
+    <div class="document" id='d1'>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+<div style="float: right">
+<a href="index.html"
+                        title="previous chapter"> &lt&lt </a>
+<a href="api-zip.html"
+                        title="next chapter"> &gt&gt </a></p>
+</div>
+
+            
+  <div class="section" id="advanced-port-usage">
+<h1>Advanced port usage<a class="headerlink" href="#advanced-port-usage" title="Permalink to this headline">¶</a></h1>
+<p>When running out of 1-bit ports, it may be possible to use a 4-bit port
+instead to emulate four 1-bit ports, or to use a 32-bit port to emulate 32
+1-bit ports.</p>
+<div class="section" id="module-zip">
+<h2>module_zip<a class="headerlink" href="#module-zip" title="Permalink to this headline">¶</a></h2>
+<p>This module can ZIP and UNZIP data onto 4-bit ports:</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="34%" />
+<col width="16%" />
+<col width="16%" />
+<col width="33%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td rowspan="2">Functionality provided</td>
+<td colspan="2">Resources required</td>
+<td rowspan="2">Status</td>
+</tr>
+<tr class="row-even"><td>4-bit port</td>
+<td>Memory</td>
+</tr>
+<tr class="row-odd"><td>quad zip and out</td>
+<td>1</td>
+<td>1250 bytes</td>
+<td>Implemented</td>
+</tr>
+<tr class="row-even"><td>quad zip and in</td>
+<td>1</td>
+<td>600 bytes</td>
+<td>Implemented</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" id='d2'>
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Advanced Port Usage (1v0)</a></h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Advanced port usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-zip">module_zip</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api-zip.html">Zipping and Unzipping data onto ports</a></li>
+</ul>
+
+<div id="searchbox" style="display: none;margin-bottom: 10px;">
+  <h3>Search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+
+
+    <div class="footer">
+    </div>
+  </body>
+</html>
+
+
+

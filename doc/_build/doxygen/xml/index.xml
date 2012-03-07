@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.7.5.1">
+  <compound refid="zip_8h" kind="file"><name>zip.h</name>
+    <member refid="zip_8h_1a90a00876c4eb8cb0b768094d99d12217" kind="function"><name>outputWordsZipped</name></member>
+    <member refid="zip_8h_1ad0dbfd1a67287fba9e29836121703ebe" kind="function"><name>inputWordsZipped</name></member>
+  </compound>
+  <compound refid="dir_311b6f6a72081a4065a9062daa1ce159" kind="dir"><name>.doxygen/</name>
+  </compound>
+  <compound refid="dir_327a77b3681db475d9d6c7eb637b5619" kind="dir"><name>.doxygen/module_zip/</name>
+  </compound>
+  <compound refid="dir_1cc927536a4729691bb10cb2e96ef5c6" kind="dir"><name>.doxygen/module_zip/src/</name>
+  </compound>
+</doxygenindex>
