@@ -1,0 +1,159 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Zipping and Unzipping data onto ports &mdash; Advanced Port Usage 1v0 documentation</title>
+    <link rel="stylesheet" href="_static/xdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1v0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="http://mathjax.connectmv.com/MathJax.js"></script>
+    <script type="text/javascript" src="_static/xcomment.js"></script>
+    <link rel="top" title="Advanced Port Usage 1v0 documentation" href="index.html" />
+    <link rel="prev" title="Advanced port usage" href="summary.html" /> 
+
+<script>
+function setheight() {
+h1 = document.getElementById('d1').style.height;
+h2 = document.getElementById('d2').style.height;
+
+if (parseInt(h1) > parseInt(h2)) {
+document.getElementById('d2').style.height=h1 + "px";
+}
+else {
+document.getElementById('d1').style.height=h2 + "px";
+}
+
+}
+</script>
+</head>
+
+<body onload="setheight();">
+
+  
+
+    <div class="document" id='d1'>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+<div style="float: right">
+<a href="summary.html"
+                        title="previous chapter"> &lt&lt </a>
+</div>
+
+            
+  <div class="section" id="zipping-and-unzipping-data-onto-ports">
+<h1>Zipping and Unzipping data onto ports<a class="headerlink" href="#zipping-and-unzipping-data-onto-ports" title="Permalink to this headline">¶</a></h1>
+<p>The zip module can input words from a 4-bit port, and output words to a
+4-bit port as if these were four 1-bit ports.</p>
+<div class="section" id="api">
+<h2>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="outputWordsZipped">
+void <tt class="descname">outputWordsZipped</tt><big>(</big>buffered out port:32<em>&nbsp;p</em>, int<em>&nbsp;b0</em>, int<em>&nbsp;b1</em>, int<em>&nbsp;b2</em>, int<em>&nbsp;b3</em><big>)</big><a class="headerlink" href="#outputWordsZipped" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function that outputs 4 words to a single 4-bit buffered port.</p>
+<p>Each word is output to one of the 4 bits serialised.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>p</strong> &#8211; port to output to</li>
+<li><strong>b0</strong> &#8211; word to output to bit 0 of port p</li>
+<li><strong>b1</strong> &#8211; word to output to bit 1 of port p</li>
+<li><strong>b2</strong> &#8211; word to output to bit 2 of port p</li>
+<li><strong>b3</strong> &#8211; word to output to bit 3 of port p</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="inputWordsZipped">
+{int,int,int,int} i <tt class="descname">inputWordsZipped</tt><big>(</big>buffered in port:32<em>&nbsp;p</em><big>)</big><a class="headerlink" href="#inputWordsZipped" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function that inputs 4 words from a single 4-bit buffered port.</p>
+<p>Each word is input from one of the 4 bits serialised.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>p</strong> &#8211; port to input from</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the four words, the first word is bit 0, the 4th return value is bit 3</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>An example program is shown below. An input and/or output ports should be
+declared as buffered ports:</p>
+<p>A function is called to output data, or to input data:</p>
+<p>If you want to do both simultaneously, you will need to manually interleave
+the source code of the two functions.</p>
+</div>
+</div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" id='d2'>
+        <div class="sphinxsidebarwrapper">
+<h3><a href="index.html">Advanced Port Usage (1v0)</a></h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="summary.html">Advanced port usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">Zipping and Unzipping data onto ports</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#api">API</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+</ul>
+
+<div id="searchbox" style="display: none;margin-bottom: 10px;">
+  <h3>Search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" size="18" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+
+
+
+    <div class="footer">
+    </div>
+  </body>
+</html>
+
+
+
